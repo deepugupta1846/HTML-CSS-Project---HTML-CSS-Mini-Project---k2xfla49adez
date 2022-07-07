@@ -1,0 +1,50 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about .about-image{
+    width: 500px;
+    height: 400px;
+    background-image: url(assets/images/about.jpeg);
+    background-size: 100%;
+    background-position: 100%;
+    border-radius: 5px;
+}
+.about .about-title{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-title h1{
+    font-size: 38px;
+    padding: 20px;
+}
+.about .about-title p{
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.about .about-title button{
+    margin-left: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 20px;
+    background-color: #48a9c5;
+    color: #ffffff;
+    font-size: 18px;
+}
+@media only screen and (max-width: 768px){
+    .about{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.recipes-tags{
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+}
+.recipes-tags .recipe-tags-card{
+    width: 80px;
+    height: 40px;
+    background-color: #48a9c5;
+    display: block;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 140px;
+    margin: 10px;
+}
+@media only screen and (max-width: 768px){
+    .recipes-tags{
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipes.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Recipes</title>
@@ -20,7 +21,8 @@
             {
                 menu.style.display="none";
             }
-        }
+                }
+       
     </script>
 </head>
 <body>
@@ -39,22 +41,18 @@
             <button>contact</button>
         </div>
     </nav>
-    <section class="banner">
-        <div class="title">
-            <h1>Simply Recipes</h1>
-            <p>No Fluff, Just Recipes</p>
+    <section class="slider">
+        <div class="container">
+            <div class="sliderbox">
+                <img src="assets/images/slide1.jpg" width="800px"/>
+                <img src="assets/images/slide3.jpg" width="800px" />
+                <img src="assets/images/recipe-4.jpeg" width="800px"/>
+                <img src="assets/images/slide2.jpg" width="800px"/>
+            </div>
         </div>
     </section>
     <section class="recipes-section">
-        <div class="recipes-menu">
-            <h2>Recipes</h2>
-            <ul>
-                <li>Beef(1)</li>
-                <li>BreakFast</li>
-                <li>Carrots</li>
-                <li>Food</li>
-            </ul>
-        </div>
+       
         <div class="recipes-card">
             <div class="card">
                 <div class="image">
@@ -113,27 +111,9 @@
 
         </div>
     </section>
-    <section class="contact-form">
-        <div class="container">
-            <div class="heading">
-                <h1>Leave a message</h1>
-            </div>
-            <div class="contact-field">
-                <input type="text" placeholder="Your Name..." />
-            </div>
-            <div class="contact-field">
-                <input type="text"  placeholder="Email..." />
-            </div>
-            <div class="message-field">
-                <textarea type="text"  placeholder="message"></textarea>
-            </div>
-            <div class="contact-button">
-                <button type="submit">Send</button>
-            </div>
-        </div>
-    </section>
     <section class="footer-section">
         <label>© 2022&nbsp;</label><a href="#">Simply Recipes &nbsp;</a> Built by &nbsp;<a href="#"> &nbsp;Deepu</a>
     </section>
+    
 </body>
 </html>
