@@ -8,6 +8,8 @@ The site is developed using HTML/CSS. There are total 4 webpages of the website 
   * Tags Page and 
   * Recipes Page.
 
+* Live URL: https://musical-madeleine-65dfea.netlify.app/recipes.html
+
 Website should contains following components : 
 
 * Home Page : A landing page with navigation menu to navigate between different pages.
